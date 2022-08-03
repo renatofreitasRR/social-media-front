@@ -1,3 +1,4 @@
+import { Post } from '../../post';
 import {
     Container
 } from './styles';
@@ -5,7 +6,9 @@ import {
 export function Main() {
     return (
         <Container>
-            lado1
+            <Post />
+            <Post />
+            <Post />
         </Container>
     );
 }
