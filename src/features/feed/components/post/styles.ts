@@ -9,3 +9,7 @@ export const Container = styled.article`
         margin-top: 2rem;
     }
 `;
+
+export const CommentList = styled.div`
+    margin-top: 1rem;
+`;

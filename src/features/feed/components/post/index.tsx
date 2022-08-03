@@ -1,8 +1,10 @@
+import { Comment } from './comment';
 import { CommentForm } from './commentForm';
 import { Content } from './content';
 import { Header } from './header';
 import {
-    Container
+    Container,
+    CommentList
 } from './styles';
 
 export function Post() {
@@ -11,6 +13,10 @@ export function Post() {
             <Header />
             <Content />
             <CommentForm />
+            <CommentList>
+                <Comment />
+                <Comment />
+            </CommentList>
         </Container>
     );
 }
